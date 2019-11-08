@@ -21,7 +21,9 @@ module HttapeRecorder
           file.write line
           break if line == "\r\n"
 
-          content_length = line.split(':')[1].to_i if line.split(':')[0] == 'Content-Length'
+          if line.split(':')[0] == 'Content-Length'
+            content_length = line.split(':')[1].to_i
+          end
         end
 
         if content_length.positive?
