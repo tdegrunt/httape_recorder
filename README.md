@@ -22,7 +22,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Start the server using:
+
+```
+bundle exec puma config.ru
+```
+
+Record some requests and play them back using:
+
+```
+nc localhost 3000 < raw1573202190707745.http
+```
 
 ## Development
 
