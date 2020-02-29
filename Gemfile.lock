@@ -22,7 +22,7 @@ GEM
     puma (4.3.0)
       nio4r (~> 2.0)
     rainbow (3.0.0)
-    rake (10.5.0)
+    rake (13.0.1)
     rubocop (0.76.0)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
@@ -41,7 +41,7 @@ DEPENDENCIES
   httape_recorder!
   minitest (~> 5.0)
   pry (~> 0)
-  rake (~> 10.0)
+  rake (~> 13.0)
   rubocop (~> 0.76)
 
 BUNDLED WITH
